@@ -2,16 +2,34 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+import AboutPage from './pages/about/about-page';
+import PortfolioPage from './pages/portfolio/portfolio-page';
+import HomePage from './pages/home/home-page';
+import NavBar from './components/nav-bar/nav-bar';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          My Personal Portfolio
-        </p>
-      </header>
-    </div>
+    <Router>
+        <NavBar />
+        <Switch>
+          <Route path="/about">
+            <AboutPage />
+          </Route>
+          <Route path="/portfolio">
+            <PortfolioPage />
+          </Route>
+          <Route path="/">
+            <HomePage />
+          </Route>
+        </Switch>
+    </Router>
   );
 }
 
