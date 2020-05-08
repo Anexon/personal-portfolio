@@ -1,12 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
 
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 import AboutPage from './pages/about/about-page';
