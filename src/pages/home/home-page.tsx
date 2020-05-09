@@ -1,5 +1,6 @@
 import React from 'react';
 import './home-page.scss';
+import KnowledgeAreas from '../../components/knowledge-areas/knowledge-areas';
 
 function HomePage() {
     return (
@@ -35,6 +36,7 @@ function HomePage() {
                 </div>
             </div>
             <div className="header-background"></div>
+            <KnowledgeAreas/>
         </div>
     );
 }

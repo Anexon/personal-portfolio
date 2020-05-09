@@ -1,0 +1,16 @@
+.knowledge-section{
+    width: 100%;
+    padding: 18px;
+
+    h1{
+        font-size: 1.2em;
+    }
+
+    li{
+        font-weight: bold;
+    }
+}
+
+.knowledge-section:nth-child(even){
+    background-color: #ecf0f1;
+}
