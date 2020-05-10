@@ -1,0 +1,7 @@
+{
+    "project_name": "Página Personal",
+    "technologies": ["react", "typescript", "html", "scss", "javascript", "redux", "hooks"],
+    "description": "Web desarrollada en React para emplear nuevas tecnologías y donde expongo mi portfolio y áreas de competencia",
+    "tags": ["webdev", "react", "investigation"],
+    "image_url": "https://random"
+}

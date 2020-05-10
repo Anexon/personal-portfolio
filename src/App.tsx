@@ -11,6 +11,7 @@ import AboutPage from './pages/about/about-page';
 import PortfolioPage from './pages/portfolio/portfolio-page';
 import HomePage from './pages/home/home-page';
 import NavBar from './components/nav-bar/nav-bar';
+import { GithubApi } from './services/github-api';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             <AboutPage />
           </Route>
           <Route path="/portfolio">
-            <PortfolioPage />
+            <PortfolioPage githubApi={GithubApi}/>
           </Route>
           <Route path="/">
             <HomePage />

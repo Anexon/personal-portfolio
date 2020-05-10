@@ -2,7 +2,7 @@ import React from 'react';
 import './home-page.scss';
 import KnowledgeAreas from '../../components/knowledge-areas/knowledge-areas';
 
-function HomePage() {
+const HomePage = () => {
     return (
         <div className="page">
             <div className="personal-summary">
@@ -26,10 +26,10 @@ function HomePage() {
                     </p>
                     <div className="separator"></div><br/>
                     <div className="social-media-icons">
-                        <a href="https://www.linkedin.com/in/tjuarezruben/" target="_blank"><img src="resources/linkedin.png"/></a>
-                        <a href="https://medium.com/@benru" target="_blank"><img src="resources/medium.svg"/></a>
-                        <a href="https://twitter.com/benRuTJ" target="_blank"><img src="resources/twitter.png"/></a>
-                        <a href="https://github.com/Anexon" target="_blank"><img src="resources/github.png"/></a>
+                        <a href="https://www.linkedin.com/in/tjuarezruben/" rel="noopener noreferrer" target="_blank"><img alt="" src="resources/linkedin.png"/></a>
+                        <a href="https://medium.com/@benru" rel="noopener noreferrer" target="_blank"><img alt="" src="resources/medium.svg"/></a>
+                        <a href="https://twitter.com/benRuTJ" rel="noopener noreferrer" target="_blank"><img alt="" src="resources/twitter.png"/></a>
+                        <a href="https://github.com/Anexon" rel="noopener noreferrer" target="_blank"><img alt="" src="resources/github.png"/></a>
                         <br></br>
                         <small>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></small>
                     </div>
