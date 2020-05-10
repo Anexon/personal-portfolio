@@ -19,5 +19,5 @@ function NavBar(){
             </nav>
         </Fragment>
     );
-}
+} 
 export default NavBar;
