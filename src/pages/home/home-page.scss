@@ -7,6 +7,11 @@
 	background-repeat: no-repeat;
 }
 
+.summary-section{
+    width: 100%;
+    margin-bottom: 2em;
+}
+
 .personal-summary{
     width: 45%;
     height:400px;
@@ -73,11 +78,27 @@
     }
 }
 
+@media (max-width: 350px) {
+    .summary-section{
+        margin-bottom: 4em;
+    }
+}
+@media (max-width: 890px) {
+    .summary-section{
+        margin-bottom: 3em;
+    }
+}
+
 @media (max-width: 650px) {
-    .page{
+    .summary-section{
         display: flex;
         flex-wrap: wrap;
     }
+
+    .knowledge-areas{
+        order: 3;
+    }
+
     .header-background{
         order: 1;
         display: block;
