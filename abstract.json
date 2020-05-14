@@ -1,7 +1,7 @@
 {
     "project_name": "Página Personal",
-    "technologies": ["react", "typescript", "html", "scss", "javascript", "redux", "hooks"],
-    "description": "Web desarrollada en React para emplear nuevas tecnologías y donde expongo mi portfolio y áreas de competencia",
-    "tags": ["webdev", "react", "investigation"],
-    "image_url": "https://random"
+    "tags": ["react", "typescript", "html", "scss", "rxjs", "redux", "hooks"],
+    "description": "Web personal desarrollada en React como pet-project. Empleo de múltiples técnicas y herramientas: dependency injection, API consumption, Hooks, Functional Programming, Reactive Programming, etc...",
+    "live_demo_url": "https://anexon.github.io/",
+    "repository_url": "https://github.com/Anexon/personal-portfolio"
 }

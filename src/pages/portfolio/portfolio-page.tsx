@@ -52,11 +52,12 @@ function PortfolioPage(props: any){
                     repos.map((repository: any, index)=>{
                         return (
                             <div className="project-card" key={index}>
-                                <h1>{repository.project_name}</h1>
+                                <h1><a href={repository.repository_url}>{repository.project_name}</a></h1>
                                 <p>{repository.description}</p>
+                                <p><a href={repository.live_demo_url}>Live Demo</a></p>
                                 {
-                                    repository.technologies.map((technology:string, techIndex: number)=>{
-                                        return <span key={techIndex}>#{technology}</span>
+                                    repository.tags.map((tag:string, tagIndex: number)=>{
+                                        return <span key={tagIndex}>#{tag}</span>
                                     })
                                 }
                             </div>
