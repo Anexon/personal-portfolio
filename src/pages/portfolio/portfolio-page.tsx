@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState} from 'react';
+import Moment from 'react-moment';
 import './portfolio-page.scss';
 
 function PortfolioPage(props: any){
@@ -52,9 +53,12 @@ function PortfolioPage(props: any){
                     repos.map((repository: any, index)=>{
                         return (
                             <div className="project-card" key={index}>
-                                <h1><a href={repository.repository_url}>{repository.project_name}</a></h1>
+                                <span style={{float: 'right'}}> 
+                                    Última actualización: <Moment format="DD/MM/YYYY" date={repository.updated_at}/>
+                                </span><br></br>
+                                <h1><a href={repository.repository_url} rel="noopener noreferrer" target="_blank">{repository.project_name}</a></h1>
                                 <p>{repository.description}</p>
-                                <p><a href={repository.live_demo_url}>Live Demo</a></p>
+                                <p><a href={repository.live_demo_url} rel="noopener noreferrer" target="_blank">Live Demo</a></p>
                                 {
                                     repository.tags.map((tag:string, tagIndex: number)=>{
                                         return <span key={tagIndex}>#{tag}</span>
