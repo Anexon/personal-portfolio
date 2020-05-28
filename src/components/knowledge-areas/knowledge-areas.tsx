@@ -68,50 +68,30 @@ function KnowledgeAreas() {
           </figcaption>
         </figure>
         <div className="section-body">
-          <h1>Analista de Datos</h1>
-          El estudio del comportamiento de los usuarios, las tendencias de
-          consumo y uso a través de los datos generados por las operaciones de
-          la empresa es necesario para la interpretación del estado actual de la
-          empresa. Trabajar directamente con acceso a la base de datos, formateo
-          de los datos y elaboración de informes para el consejo de
-          administración ha sido una de las principales tareas que he realizado.
-          Obtener métricas relevantes para cada departamento permite afianzar
-          los esfuerzos o corregir rápida y eficazmente los recursos que se
-          están empleando.
+          <h1>
+            <Text tid="dataAnalystTitle"></Text>
+          </h1>
+          <Text tid="dataAnalystDescription"></Text>
           <br></br>
           <br></br>
-          Algunas de los estudios realizados en este área:
+          <Text tid="dataAnalystIntro"></Text>
           <ul>
-            <li>A/B Testing</li>
-            La implementación de nuevas herramientas o páginas de captación de
-            usuarios se ha realizado a través del análisis sobre grupos de
-            control y grupos expuestos al nuevo cambio. Este estudio se ha
-            realizado sobre los resultados generados por la actividad de los
-            mimos en múltiples plataformas; Stores de Aplicación, Google
-            Analytics, base de datos, excel, etc.. Todos los estudios se han
-            tenido en cuento los resultados estadísticos y los prácticos
-            atendiendo al tamaño de las muestras, p-values y distribuciones de
-            media; distinguiendo entre las implicaciones a nivel de costes de
-            cada nueva funcionalidad respecto a la mejora que introduce.
-            <li>Machine Learning</li>
-            Elaboración de un algortimo de selección de candidatos en función de
-            la actividad del mismo en la plataforma y otros criteriois como
-            resultado de uso; valoración del perfil profesional, distancia al
-            puesto de trabajo, evaluzación de la imagen de perfil, evaluación
-            del texto de descripción, habilidades, etc..
-            <li>Obtención de KPIs</li>
-            La obtención y configuración de los KPIs implica una relación
-            directa con los departamentos financieros y de dirección, que
-            permiten establecer objetivos alcanzables y desafiantes. Los datos
-            se obteninen normalmente de múltiples fuentes; Google Analytics,
-            tiendas de aplicación, base de datos internas y externas APIs de
-            terceros o incluso hojas de excel financieras.
-            <li>Tendencias demográficas</li>
-            Identificacón de los crecimientos de ventas por área geográfica,
-            creación de áreas de trabajo mediante geolocalización para
-            automatizar la decisión de dar servicio a un cliente utilizando
-            GeoJson y análisis de los costes asociados a las operaciones en
-            otras provincias de España.
+            <li>
+              <Text tid="dataItem1Title"></Text>
+            </li>
+            <Text tid="dataItem1Description"></Text>
+            <li>
+              <Text tid="dataItem2Title"></Text>
+            </li>
+            <Text tid="dataItem2Description"></Text>
+            <li>
+              <Text tid="dataItem3Title"></Text>
+            </li>
+            <Text tid="dataItem3Description"></Text>
+            <li>
+              <Text tid="dataItem4Title"></Text>
+            </li>
+            <Text tid="dataItem4Description"></Text>
           </ul>
         </div>
       </div>

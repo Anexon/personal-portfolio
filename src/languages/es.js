@@ -62,7 +62,48 @@ const es = {
     puntos a refozar y conseguir un clima laboral estrecho y saludable.
     Es importantes identificar las necesidades de los trabajadores en un
     plano profesional y personal para trabajar en conseguirlos y mejorar
-    la realizació personal de todos.`
+    la realizació personal de todos.`,
+  "dataAnalystTitle": "Analista de Datos",
+  "dataAnalystDescription": `El estudio del comportamiento de los usuarios, las tendencias de
+    consumo y uso a través de los datos generados por las operaciones de
+    la empresa es necesario para la interpretación del estado actual de la
+    empresa. Trabajar directamente con acceso a la base de datos, formateo
+    de los datos y elaboración de informes para el consejo de
+    administración ha sido una de las principales tareas que he realizado.
+    Obtener métricas relevantes para cada departamento permite afianzar
+    los esfuerzos o corregir rápida y eficazmente los recursos que se
+    están empleando.`,
+  "dataAnalystIntro": "Algunas de los estudios realizados en este área:",
+  "dataItem1Title": "A/B Testing",
+  "dataItem1Description": `La implementación de nuevas herramientas o páginas de captación de
+    usuarios se ha realizado a través del análisis sobre grupos de
+    control y grupos expuestos al nuevo cambio. Este estudio se ha
+    realizado sobre los resultados generados por la actividad de los
+    mimos en múltiples plataformas; Stores de Aplicación, Google
+    Analytics, base de datos, excel, etc.. Todos los estudios se han
+    tenido en cuento los resultados estadísticos y los prácticos
+    atendiendo al tamaño de las muestras, p-values y distribuciones de
+    media; distinguiendo entre las implicaciones a nivel de costes de
+    cada nueva funcionalidad respecto a la mejora que introduce.`,
+  "dataItem2Title": "Machine Learning",
+  "dataItem2Description": `Elaboración de un algortimo de selección de candidatos en función de
+    la actividad del mismo en la plataforma y otros criteriois como
+    resultado de uso; valoración del perfil profesional, distancia al
+    puesto de trabajo, evaluzación de la imagen de perfil, evaluación
+    del texto de descripción, habilidades, etc..`,
+  "dataItem3Title": "Obtención de KPIs",
+  "dataItem3Description": `La obtención y configuración de los KPIs implica una relación
+    directa con los departamentos financieros y de dirección, que
+    permiten establecer objetivos alcanzables y desafiantes. Los datos
+    se obteninen normalmente de múltiples fuentes; Google Analytics,
+    tiendas de aplicación, base de datos internas y externas APIs de
+    terceros o incluso hojas de excel financieras.`,
+  "dataItem4Title": "Tendencias demográficas",
+  "dataItem4Description": `Identificacón de los crecimientos de ventas por área geográfica,
+    creación de áreas de trabajo mediante geolocalización para
+    automatizar la decisión de dar servicio a un cliente utilizando
+    GeoJson y análisis de los costes asociados a las operaciones en
+    otras provincias de España.`,
 };
 
 export default es;
