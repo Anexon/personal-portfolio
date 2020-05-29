@@ -104,6 +104,64 @@ const es = {
     automatizar la decisión de dar servicio a un cliente utilizando
     GeoJson y análisis de los costes asociados a las operaciones en
     otras provincias de España.`,
+  "growthTitle": "Responsable de Growth",
+  "growthDescription": `Identificar las métricas principales que hacen a la empresa prosperar
+    permite trabajar de forma intensiva en lo que importa de verdad. Esto
+    implica entender al usuario, al consumidor y elaborar iniciativas
+    medibles y replicables para entender el éxito o el fracaso de las
+    mismas para profundizar o cambiar el foco. Como responsable de Growth
+    es necesario lidiar con gran horizontalidad ya que con frecuencia cada
+    acción implica múltiples departamentos; comunicación, publicidad,
+    servicio al cliente, ventas, desarrollo de nuevas funcionalidades,
+    elaboración de presupuestos y análisis de resultados.`,
+  "growthIntro": "Algunas de las acciones realizadas durante mi experiencia han sido:",
+  "growthItem1Title": "Implantación de NPS",
+  "growthItem1Description": `A través de un servicio de atención al
+    usuario mediante la integración de chats internos, páginas de ayudas
+    dinámicas como Intercom, conseguimos aumentar el grado de
+    satisfacción del usuario y el cliente. El establecimiento de una
+    metodología consistente para obtener feedback del usuario es
+    fundamental para la mejora continua del servicio.`,
+  "growthItem2Title": "Plan de Trabajo MKT+Ventas",
+  "growthItem2Description": `Introducción del método de trabajo mediante identificación de
+    oportunidades de venta Outbound y Inbound, para lo que establecimos
+    un flujo de trabajo en el que MKT facilitaba las oportunidades de
+    ventas generadas mediante publicidad y tráfico orgánico y el equipo
+    comercial estableció unos plazos de trabajo sobre estos leads. Este
+    plan de trabajo identifica varias estapas; prospección, nurturing y
+    cierre, que permite a los trabajadores especializarse en áreas de`,
+  "growthItem3Title": "Optimización de las Operaciones",
+  "growthItem3Description": `La incorporación de nuevos procesos internos permite la reducción de
+    los recursos necesarios para dar servicio. En concreto, en
+    BuscoExtra, la incorporación de una funcionalidad para la
+    confirmación de horas y la disponibilidad del trabajador cedido
+    permitía reducir el número de llamadas para garantizar el servicio y
+    obtener el total de horas trabajadas de forma considerable.`,
+  "devFullstackTitle": "Desarrollador Fullstack",
+  "devFullstackDescription": `Como emprendedor he tenido que aprender a hacer la cosas por mi mismo
+    y como autodidacta siempre me ha apasionado la programación; desde
+    Matlab o Python para el scripting de análisis matemáticos o Appscript
+    para programar spreadsheets hasta Javascript, Angular, React, Ionic
+    para el desarrolloo de aplicaciones multiplataforma frontend, Android
+    para aplicaciones nativas o incluso Nodejs, Symphony, Nginx para
+    desarrollo de APIRest y configuración de servidores.`,
+  "devFullstackIntro": `Pero sin duda en algunas he tenido la oportunidad de dedicar más
+    tiempo:`,
+  "devFullstackItem1Title": "Aplicaciones Frontend",
+  "devFullstackItem1Description": `Para el desarrollo de aplicaciones he trabajado principalmente en el
+    framework de Angular e Ionic, definiendo arquitecturas y programando
+    los componentes.`,
+  "devFullstackItem2Title": "Servicios en la Nube",
+  "devFullstackItem2Description": `Para el desrrollo de alguans herramientas he empleado arquitecturas
+    distribuidas en microservicios despelgadas en Google Engine, Google
+    Functions o incluso servicios propios a través de servidores NodeJS.`,
+  "devFullstackItem3Title": "Obtención de Datos",
+  "devFullstackItem3Description": `Para la graficación de datos he programado con librerias propias de
+    javascript y python (D3, seaborn, matplotliib). En la obtención de
+    Datos he realizado un trabajo intensivo en programación de queries
+    en MySQL con post procesados en excel o en scripts python.`
+
+
 };
 
 export default es;
