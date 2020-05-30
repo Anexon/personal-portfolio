@@ -3,7 +3,8 @@ import PropTypes from "prop-types";
 import { languagesList } from "../languages";
 
 // create the language context with default selected language
-const defaultLanguage = navigator.language;
+const navigatorLanguage = navigator.language;
+export const defaultLanguage = Object.keys(languagesList).some(l => l == navigatorLanguage) ? navigatorLanguage : "es";
 
 export const LanguageContext = createContext({
   language: languagesList[defaultLanguage],

@@ -163,8 +163,8 @@ const es = {
     en MySQL con post procesados en excel o en scripts python.`,
   "portfolioArticlesHeader": "Artículos",
   "portfolioReposHeader": "Repositorios",
-  "portfolioLoadingRepos": "Cargando Repositorios"
-
+  "portfolioLoadingRepos": "Cargando Repositorios",
+  "particulaEn": "en"
 };
 
 export default es;

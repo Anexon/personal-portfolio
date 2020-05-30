@@ -1,0 +1,78 @@
+[
+  {
+    "backgroundImage": {
+      "en": "/resources/medium_1.png",
+      "es": "/resources/medium_1.png"
+    },
+    "title": {
+      "en": "How to use D3js with WebComponents",
+      "es": "Cómo usar D3 con WebComponents"
+    },
+    "description": {
+      "en": "Stencil allows creating a modular, exportable and a work environment accessible by the main web development frameworks. This is a great advantage to join visual elements from multiple projects and standardize their use, recycle code, html, css, etc..",
+      "es": "Stencil permite crear un entorno de trabajo modular, exportable y accesible por los principales frameworks de desarrollo web. Esto es una gran ventaja para unir elementos visuales de varios proyectos y estandarizar su uso, reciclar código, html, css, etc.."
+    },
+    "articleUrl": {
+      "en": "https://towardsdatascience.com/how-to-use-d3js-with-webcomponents-a75ae4f980de",
+      "es": "https://medium.com/puntotech/c%C3%B3mo-usar-d3-con-webcomponents-44ea4a95a238"
+    },
+    "profileUrl": {
+      "en": "https://medium.com/@benru",
+      "es": "https://medium.com/@benru"
+    },
+    "profileName": {
+      "en": "Rubén Triviño",
+      "es": "Rubén Triviño"
+    },
+    "communityUrl": {
+      "en": "https://towardsdatascience.com/",
+      "es": "https://medium.com/puntotech"
+    },
+    "communityName": {
+      "en": "TDS",
+      "es": "PuntoTech"
+    },
+    "articleReadTimeText": {
+      "en": "Apr 18th, 2020 - 6 min read",
+      "es": "Abril 18, 2020 - 5 min read"
+    }
+  },
+  {
+    "backgroundImage": {
+      "en": "/resources/medium_2.gif",
+      "es": "/resources/medium_2.gif"
+    },
+    "title": {
+      "en": "Network Graph with D3js on Canvas",
+      "es": "Gráfico de Red con D3.js en Canvas"
+    },
+    "description": {
+      "en": "Data visualization is a prism with many faces; where some see a simple bar chart, others see a clear growth trend or even an accomplished goal.",
+      "es": "La visualización de datos es un prisma de muchas caras; donde unos ven un simple gráfico de barras otros ven una clara tendencia de crecimiento, un objetivo cumplido o incluso un simple .json de datos sin contexto."
+    },
+    "articleUrl": {
+      "en": "https://towardsdatascience.com/network-graph-with-d3js-on-canvas-b90f275dfaa6",
+      "es": "https://medium.com/puntotech/gr%C3%A1fico-de-red-con-d3-js-en-canvas-fe39632efcba"
+    },
+    "profileUrl": {
+      "en": "https://medium.com/@benru",
+      "es": "https://medium.com/@benru"
+    },
+    "profileName": {
+      "en": "Rubén Triviño",
+      "es": "Rubén Triviño"
+    },
+    "communityUrl": {
+      "en": "https://towardsdatascience.com/",
+      "es": "https://medium.com/puntotech"
+    },
+    "communityName": {
+      "en": "TDS",
+      "es": "PuntoTech"
+    },
+    "articleReadTimeText": {
+      "en": "May 5th, 2020 - 7 min read",
+      "es": "Mayo 5, 2020 - 8 min read"
+    }
+  }
+]

@@ -3,30 +3,30 @@ import "./article-reference.scss";
 import { Text } from "../../containers/Language";
 import PropTypes from "prop-types";
 
-function ArticleReference() {
+function ArticleReference(props: any) {
   return (
     <div className="post-card">
       <div
         className="post-photo"
-        style={{ backgroundImage: "url('/resources/medium_2.gif')" }}
+        style={{
+          backgroundImage: `url('${props.articleData.backgroundImage}')`,
+        }}
       ></div>
       <div className="post-body">
         <h1>
-          <a href="https://medium.com/puntotech/gr%C3%A1fico-de-red-con-d3-js-en-canvas-fe39632efcba">
-            Gráfico de Red con D3.js en Canvas
-          </a>
+          <a href={props.articleData.articleUrl}>{props.articleData.title}</a>
         </h1>
-        <p>
-          Stencil permite crear un entorno de trabajo modular, exportable y
-          accesible por los principales frameworks de desarrollo web. Esto es
-          una gran ventaja para unir elementos visuales de varios proyectos y
-          estandarizar su uso, reciclar código, html, css, etc..
-        </p>
+        <p>{props.articleData.description}</p>
         <small>
-          <a href="https://medium.com/@benru">Rubén Triviño</a> en{" "}
-          <a href="https://medium.com/puntotech">PuntoTech</a>
+          <a href={props.articleData.profileUrl}>
+            {props.articleData.profileName}
+          </a>{" "}
+          <Text tid="particulaEn"></Text>{" "}
+          <a href={props.articleData.communityUrl}>
+            {props.articleData.communityName}
+          </a>
         </small>
-        <small>Mayo 5, 2020 - 8 min read</small>
+        <small>{props.articleData.articleReadTimeText}</small>
       </div>
     </div>
   );
@@ -42,7 +42,7 @@ ArticleReference.propTypes = {
     profileName: PropTypes.string,
     communityUrl: PropTypes.string,
     communityName: PropTypes.string,
-    articleReadTime: PropTypes.string,
+    articleReadTimeText: PropTypes.string,
   }).isRequired,
 };
 
