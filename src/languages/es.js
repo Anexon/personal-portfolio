@@ -1,4 +1,5 @@
 const es = {
+  "navbarOption1": "Portfolio",
   "summary": "Resumen",
   "summaryDescription1": "Soy una persona dinámica y creativa, con gran capacidad para trabajar sobre presión y para gestionar situaciones imprevistas.",
   "summaryDescription2": `A la hora de abordar un proyecto no pierdo la visión global y mantengo el foco sobre 
@@ -159,8 +160,10 @@ const es = {
   "devFullstackItem3Description": `Para la graficación de datos he programado con librerias propias de
     javascript y python (D3, seaborn, matplotliib). En la obtención de
     Datos he realizado un trabajo intensivo en programación de queries
-    en MySQL con post procesados en excel o en scripts python.`
-
+    en MySQL con post procesados en excel o en scripts python.`,
+  "portfolioArticlesHeader": "Artículos",
+  "portfolioReposHeader": "Repositorios",
+  "portfolioLoadingRepos": "Cargando Repositorios"
 
 };
 
