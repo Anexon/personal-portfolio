@@ -1,7 +1,7 @@
 {
     "project_name": "Página Personal",
     "tags": ["react", "typescript", "html", "scss", "rxjs", "redux", "hooks"],
-    "description": "Web personal desarrollada en React como pet-project. Empleo de múltiples técnicas y herramientas: dependency injection, API consumption, Hooks, Functional Programming, Reactive Programming, etc...",
+    "description": "Web personal desarrollada en React como pet-project. Empleo de múltiples técnicas y herramientas: dependency injection, API consumption, Hooks, Functional Programming, Reactive Programming...",
     "live_demo_url": "https://anexon.github.io/",
     "repository_url": "https://github.com/Anexon/personal-portfolio"
 }

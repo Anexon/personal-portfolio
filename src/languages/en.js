@@ -6,6 +6,7 @@ const en = {
     los objetivos principales. Para mí, la
     comunicación con el equipo es fundamental para orientar los
     esfuerzos hacía un mismo fin y mantener un ambiente enérgico.`,
+  "letstalk": "Let's talk",
   "entrepeneurHastag": "#emprendedor",
   "curiosHastag": "#curioso",
   "creativeHastag": "#creativo",
