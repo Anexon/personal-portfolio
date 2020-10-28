@@ -3,6 +3,7 @@ import "./nav-bar.scss";
 import { Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 import { Text } from "../../containers/Language";
+import ContactButton from "../contact-button/ContactButton";
 
 function NavBar() {
   const history = useHistory();
@@ -10,21 +11,20 @@ function NavBar() {
   return (
     <Fragment>
       <nav className="container">
-        <h1
+        <a
           onClick={() => {
             history.push("/");
           }}
         >
           Rubén Triviño Juárez
-        </h1>
-        <ul>
-          <li>
-            <Link to="/portfolio">
-              <Text tid="navbarOption1"></Text>
-            </Link>
-          </li>
-          {/* <li><Link to="/about">About</Link></li> */}
-        </ul>
+        </a>
+        <div className="sections">
+
+          <Link to="/portfolio">
+            <Text tid="navbarOption1"></Text>
+          </Link>
+          <span>Contactar</span>
+        </div>
       </nav>
     </Fragment>
   );

@@ -14,11 +14,36 @@ function KnowledgeAreas() {
         </p>
       </div>
       <div className="specialization-carrousel">
-        <SpecializationCard title="Desarrollo" description="Una descripción de porqué me apasiona o que cosas se hacen en este área. Porque me mola mucho y quiero dedicarle más tiempo." imgUrl="/resources/develop.svg"></SpecializationCard>
-        <SpecializationCard title="Administración de Empresas" description="Una descripción de porqué me apasiona o que cosas se hacen en este área. Porque me mola mucho y quiero dedicarle más tiempo." imgUrl="/resources/business_administration.svg" highlighted="true"></SpecializationCard>
-        <SpecializationCard title="Análisis de Datos" description="Una descripción de porqué me apasiona o que cosas se hacen en este área. Porque me mola mucho y quiero dedicarle más tiempo." imgUrl="/resources/data_analytics.svg"></SpecializationCard>
+        <SpecializationCard
+          title="Software Engineer"
+          description=
+          {
+            <>
+              <span>Ingeniero industrail autodidacta apasionado por la tecnología y el software. Trabajo como frontend, backend y devops con las últimas herramientas.</span>
+            </>
+          }
+          imgUrl="/resources/develop.svg"></SpecializationCard>
+        <SpecializationCard
+          title="Organización de Empresas"
+          description={
+            <>
+              <span>Como fundador de varias startups he sido responsable de la
+              administración y coordinación entre departamentos para alcanzar objetivos.</span>
+              <br></br>
+              <br></br>
+              <span>RRHH, Finanzas, Tecnología, Ventas, MKT, Growth, OKRs</span>
+            </>}
+          imgUrl="/resources/business_administration.svg" highlighted="true"></SpecializationCard>
+        <SpecializationCard
+          title="Analista de Datos"
+          description={
+            <>
+              <span>Obsesionado de la mentalidad data-driven, la visualización de la información como herramienta de comunicación; métricas, funnels, eventos, tests A\B, ML...</span>
+            </>
+          }
+          imgUrl="/resources/data_analytics.svg"></SpecializationCard>
       </div>
-      <div className="knowledge-section">
+      {/* <div className="knowledge-section">
         <figure className="section-header">
           <div
             className="section-photo"
@@ -181,7 +206,7 @@ function KnowledgeAreas() {
             <Text tid="devFullstackItem3Description"></Text>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
