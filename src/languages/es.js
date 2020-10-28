@@ -12,7 +12,7 @@ const es = {
   "curiosHastag": "#curioso",
   "creativeHastag": "#creativo",
   "adventurerHastag": "#aventurero",
-  "knowledgeAreas": "Áreas de Conocimiento",
+  "knowledgeAreas": "Especialización",
   "businessAdministrationTitle": "Organización de Empresas",
   "businessAdministrationDescription": `Como cofundador de varias empresas he sido responsable de la
     administración, organización y coordenación de los recursos

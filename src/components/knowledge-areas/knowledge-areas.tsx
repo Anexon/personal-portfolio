@@ -1,12 +1,23 @@
 import React from "react";
 import "./knowledge-areas.scss";
 import { Text } from "../../containers/Language";
+import SpecializationCard from "../specialization-card/SpecializationCard";
 function KnowledgeAreas() {
   return (
     <div className="knowledge-areas">
-      <h1>
-        <Text tid="knowledgeAreas"></Text>
-      </h1>
+      <div className="title">
+        <h2>
+          <Text tid="knowledgeAreas"></Text>
+        </h2>
+        <p>
+          Como manager de operaciones me encanta estar en todo, pero hay algunas áreas que me apasionan...
+        </p>
+      </div>
+      <div className="specialization-carrousel">
+        <SpecializationCard title="Desarrollo" description="Una descripción de porqué me apasiona o que cosas se hacen en este área. Porque me mola mucho y quiero dedicarle más tiempo." imgUrl="/resources/develop.svg"></SpecializationCard>
+        <SpecializationCard title="Administración de Empresas" description="Una descripción de porqué me apasiona o que cosas se hacen en este área. Porque me mola mucho y quiero dedicarle más tiempo." imgUrl="/resources/business_administration.svg" highlighted="true"></SpecializationCard>
+        <SpecializationCard title="Análisis de Datos" description="Una descripción de porqué me apasiona o que cosas se hacen en este área. Porque me mola mucho y quiero dedicarle más tiempo." imgUrl="/resources/data_analytics.svg"></SpecializationCard>
+      </div>
       <div className="knowledge-section">
         <figure className="section-header">
           <div

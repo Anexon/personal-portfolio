@@ -1,6 +1,6 @@
 .summary-section {
     background-color: var(--background-color);
-    min-height: calc(80vh - 91px);
+    min-height: calc(85vh - 91px);
     display: flex;
     align-items: center;
 
@@ -56,4 +56,19 @@
         background-repeat: no-repeat;
     }
 
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
