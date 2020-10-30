@@ -2,6 +2,7 @@
   --primary-color: #3498db;
   --background-color: #F8F9FA;
   --default-color: #2d3436;
+  --translucent-dark: #2d3436aa;
   --inner-padding: 24px;
   --max-width: 1080px;
 
@@ -13,6 +14,16 @@
   }
 
   box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 .page {

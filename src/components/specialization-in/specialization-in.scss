@@ -21,63 +21,6 @@
   }
 }
 
-.knowledge-section {
-  width: 100%;
-  min-height: 300px;
-  padding: 18px;
-  background-color: #ecf0f1;
-  display: flex;
-
-  li {
-    font-weight: bold;
-  }
-
-  .section-header {
-    min-width: 400px;
-    min-height: 300px;
-    margin: 0px 0px 1em 0px;
-    order: 1;
-
-    figcaption {
-      font-size: 0.8em;
-      margin-top: 0.4em;
-      text-align: center;
-    }
-
-    .section-photo {
-      width: 100%;
-      height: 100%;
-      min-height: 300px;
-      background-position: center;
-      background-size: cover;
-    }
-  }
-
-  .section-body {
-    order: 2;
-    min-width: 400px;
-    padding-left: 24px;
-  }
-
-  h1 {
-    font-size: 1.2em;
-  }
-}
-
-.knowledge-section:nth-child(2n + 1) {
-  background-color: white;
-
-  .section-header {
-    order: 2;
-  }
-
-  .section-body {
-    order: 1;
-    padding-left: 0px;
-    padding-right: 24px;
-  }
-}
-
 @media (max-width: 930px) {
   .knowledge-section {
     flex-direction: column;
