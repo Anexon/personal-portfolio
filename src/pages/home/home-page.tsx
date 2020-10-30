@@ -1,6 +1,7 @@
 import React from "react";
 import "./home-page.scss";
-import KnowledgeAreas from "../../components/knowledge-areas/knowledge-areas";
+import SpecializationIn from "../../components/specialization-in/specialization-in";
+import LastWorks from "../../components/last-works/LastWorks";
 import ContactButton from "../../components/contact-button/ContactButton";
 import { Text } from "../../containers/Language";
 
@@ -25,7 +26,9 @@ const HomePage = () => {
           <div className="header-background"></div>
         </div>
       </div>
-      <KnowledgeAreas />
+      <SpecializationIn />
+
+      <LastWorks />
     </div>
   );
 };

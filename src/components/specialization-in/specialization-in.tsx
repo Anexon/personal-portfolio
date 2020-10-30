@@ -1,8 +1,13 @@
-import React from "react";
-import "./knowledge-areas.scss";
+import React, { useEffect } from "react";
+import "./specialization-in.scss";
 import { Text } from "../../containers/Language";
 import SpecializationCard from "../specialization-card/SpecializationCard";
-function KnowledgeAreas() {
+import { showOnScroll } from "../../services/showOnScroll";
+function SpecializationIn() {
+
+  useEffect(() => {
+    showOnScroll.checkShowOnScrollItems(".knowledge-areas");
+  }, [])
   return (
     <div className="knowledge-areas">
       <div className="title">
@@ -28,7 +33,7 @@ function KnowledgeAreas() {
           description={
             <>
               <span>Como fundador de varias startups he sido responsable de la
-              administración y coordinación entre departamentos para alcanzar objetivos.</span>
+              administración y coordinación entre departamentos para la consecución de objetivos.</span>
               <br></br>
               <br></br>
               <span>RRHH, Finanzas, Tecnología, Ventas, MKT, Growth, OKRs</span>
@@ -211,4 +216,4 @@ function KnowledgeAreas() {
   );
 }
 
-export default KnowledgeAreas;
+export default SpecializationIn;
