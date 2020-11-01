@@ -14,10 +14,11 @@
   .specialization-carrousel {
     display: flex;
     max-width: 980px;
-    margin-top: 48px;
+    margin-top: 24px;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 }
 
