@@ -66,6 +66,7 @@ $data: ((background_image: "/resources/last-works/trampoline_background.svg",
     height: 450px;
     margin: auto;
     flex-wrap: wrap;
+    box-sizing: content-box;
 
     @for $i from 1 through 3 {
 
@@ -172,6 +173,8 @@ $data: ((background_image: "/resources/last-works/trampoline_background.svg",
 @media (max-width: 547px) {
 
     .last-works-container {
+        height: 100%;
+
         .column {
             height: 350px;
 

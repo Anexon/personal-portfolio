@@ -4,6 +4,7 @@ import SpecializationIn from "../../components/specialization-in/specialization-
 import LastWorks from "../../components/last-works/LastWorks";
 import ContactButton from "../../components/contact-button/ContactButton";
 import { Text } from "../../containers/Language";
+import Footer from "../../components/footer/Footer";
 
 const HomePage = () => {
   return (
@@ -29,6 +30,8 @@ const HomePage = () => {
       <SpecializationIn />
 
       <LastWorks />
+
+      <Footer />
     </div>
   );
 };
