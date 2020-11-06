@@ -3,7 +3,6 @@ import "./nav-bar.scss";
 import { Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 import { Text } from "../../containers/Language";
-import ContactButton from "../contact-button/ContactButton";
 
 function NavBar() {
   const history = useHistory();
@@ -23,7 +22,7 @@ function NavBar() {
           <Link to="/portfolio">
             <Text tid="navbarOption1"></Text>
           </Link>
-          <span>Contactar</span>
+          <span><a href="https://www.linkedin.com/in/tjuarezruben/" target="_blank">Contactar</a></span>
         </div>
       </nav>
     </Fragment>

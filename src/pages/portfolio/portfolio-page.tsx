@@ -3,6 +3,7 @@ import Moment from "react-moment";
 import "./portfolio-page.scss";
 import { Text, defaultLanguage } from "../../containers/Language";
 import ArticleReference from "../../components/article-reference/article-reference";
+import Footer from "../../components/footer/Footer";
 
 function PortfolioPage(props: any) {
   const [repos, setRepos] = useState([]);
@@ -21,6 +22,7 @@ function PortfolioPage(props: any) {
       <h1>
         <Text tid="portfolioArticlesHeader"></Text>
       </h1>
+      <p>Startups, tecnología, herramientas, agile, métricas, negocio y otras reflexiones...</p>
       <div className="posts-container">
         {articles.map((article: any) => {
           let i18nArticle = {} as any;
@@ -36,6 +38,7 @@ function PortfolioPage(props: any) {
       <h1>
         <Text tid="portfolioReposHeader"></Text>
       </h1>
+      <p>Startups, tecnología, herramientas, agile, métricas, negocio y otras reflexiones...</p>
       <div className="project-cards-container">
         {isLoading && (
           <div className="loader">
@@ -77,13 +80,16 @@ function PortfolioPage(props: any) {
                     </a>
                   </p>
                 )}
-                {repository.tags.map((tag: string, tagIndex: number) => {
-                  return <span key={tagIndex}>#{tag}</span>;
-                })}
+                <div className="tags-container">
+                  {repository.tags.map((tag: string, tagIndex: number) => {
+                    return <span key={tagIndex}>#{tag}</span>;
+                  })}
+                </div>
               </div>
             );
           })}
       </div>
+      <Footer />
     </div>
   );
 }

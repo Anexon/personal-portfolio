@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 function ArticleReference(props: any) {
   return (
-    <div className="post-card">
+    <div className="post-card" onClick={() => { window.open(props.articleData.articleUrl, '_blank') }}>
       <div
         className="post-photo"
         style={{
@@ -14,7 +14,7 @@ function ArticleReference(props: any) {
       ></div>
       <div className="post-body">
         <h1>
-          <a href={props.articleData.articleUrl}>{props.articleData.title}</a>
+          {props.articleData.title}
         </h1>
         <p>{props.articleData.description}</p>
         <small>

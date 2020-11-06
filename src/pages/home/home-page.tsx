@@ -21,7 +21,6 @@ const HomePage = () => {
               <Text tid="summaryDescription1"></Text>
             </p>
 
-
             <ContactButton></ContactButton>
           </div>
           <div className="header-background"></div>
